@@ -368,7 +368,7 @@ a {
   display: inline-block;
   position: absolute;
   top: -6px;
-  right: 5%;
+  right: 2%;
 }
 
 .plan:hover {
@@ -741,14 +741,15 @@ max-width: 670px;
 
 .block-plans .grid {
   gap: 8rem 4rem; 
-  
-}
+  }
 
-.block-plans .card {
-  max-width: 500px; 
-  margin: 0 auto; 
-  
-}
+  .block-plans .card {
+    max-width: 500px; 
+    margin: 0 auto; 
+  }
+
+
+
 /* Features */
 
 .feature {
