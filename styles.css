@@ -633,18 +633,18 @@ a {
 
 /* Navigation Bar */
 .nav {
-  background: #000; 
-  display: flex; 
-  justify-content: space-between; 
-  flex-wrap: wrap; 
-  padding: 0 1rem; 
-  align-items: center; 
+background: #000; 
+display: flex; 
+justify-content: space-between; 
+flex-wrap: wrap; 
+padding: 0 1rem; 
+align-items: center; 
 }
 
 .nav__list {
   width: 100%; 
   margin: 0; 
-} 
+}
 
 .nav__item {
   padding: 0.5rem 2rem; 
@@ -680,20 +680,18 @@ a {
   .nav__toggler {
     display: none; 
   }
-
   .nav__list {
     width: auto; 
-    display: flex; 
+    display: flex;  
     font-size: 1.6rem; 
-    max-height: 100%; 
+    max-height: 100%;
     opacity: 1; 
   }
-}
 
-.nav__item {
-  border: 0; 
+  .nav__item {
+    border: 0; 
+  }
 }
-
 /* Hero */
 
 .hero__tagline {
